@@ -136,14 +136,7 @@ The Hypervolume Knowledge Gradient paper formulates one-step look-ahead optimiza
 Conceptually:
 
 $$
-\alpha_{\mathrm{HV-KG}}(x)
-=
-\mathbb{E}\left[
-\max_{X' \subseteq \mathcal{X}} HV\big(\mu(X' \mid \mathcal{D}_x)\big)
--
-\psi^*
-\right]
-$$
+\alpha_{\mathrm{HV-KG}}(x) = \mathbb{E}\left[ \max_{X' \subseteq \mathcal{X}} HV\big(\mu(X' \mid \mathcal{D}_x) \big) - \psi^* \right] $$
 
 where $(\psi^*)$ is the current best hypervolume under the current data \(\mathcal{D}\), and \(\mathcal{D}_x\) denotes the data after a new observation at candidate \(x\). :contentReference[oaicite:30]{index=30}
 
