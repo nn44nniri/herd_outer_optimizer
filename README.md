@@ -148,7 +148,7 @@ In this repository, the operation phase compares:
 
 The remaining target is interpreted as the gap:
 
-$required future regime = $optimal full season target - realized past regime$
+required future regime $=$ $optimal full-season target $-$ realized past regime
 
 subject to feasibility, season length remaining, and the trained optimizer archive. This makes the operation phase a time-conditioned recommendation problem under partial information. That framing is consistent with the HV-KG motivation for MOBO under incomplete information. :contentReference[oaicite:31]{index=31}
 
