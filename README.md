@@ -138,7 +138,7 @@ Conceptually:
 $$
 \alpha_{\mathrm{HV-KG}}(x) = \mathbb{E}\left[ \max_{X' \subseteq \mathcal{X}} HV\big(\mu(X' \mid \mathcal{D}_x) \big) - \psi^* \right] $$
 
-where $(\psi^*)$ is the current best hypervolume under the current data \(\mathcal{D}\), and \(\mathcal{D}_x\) denotes the data after a new observation at candidate \(x\). :contentReference[oaicite:30]{index=30}
+where $(\psi^*)$ is the current best hypervolume under the current data $(\mathcal{D}\)$, and $(\mathcal{D}_x)$ denotes the data after a new observation at candidate $(x)$. :contentReference[oaicite:30]{index=30}
 
 ### 4. Partial-information / operation-phase formalism
 In this repository, the operation phase compares:
@@ -148,13 +148,7 @@ In this repository, the operation phase compares:
 
 The remaining target is interpreted as the gap:
 
-\[
-\text{required future regime}
-=
-\text{optimal full-season target}
--
-\text{realized past regime}
-\]
+$$ \text{required future regime} = \text{optimal full-season target} - \text{realized past regime} $$
 
 subject to feasibility, season length remaining, and the trained optimizer archive. This makes the operation phase a time-conditioned recommendation problem under partial information. That framing is consistent with the HV-KG motivation for MOBO under incomplete information. :contentReference[oaicite:31]{index=31}
 
