@@ -1,0 +1,70 @@
+{
+  "season_state": {
+    "current_day": 180,
+    "season_start_day": 1,
+    "season_end_day": 365
+  },
+  "current_target_id": 7,
+  "objective_estimate": {
+    "beef_production_herd_kg": 505.83461121000795,
+    "feed_efficiency_herd_g_per_kg_dm": 52.050855947542594
+  },
+  "optimal_full_cumulative_regime": {
+    "rad": 4025022.582313611,
+    "mint": 1890.8794394628408,
+    "maxt": 4610.377818686138,
+    "vpr": 407.96009714871906,
+    "wind": 1068.2540279204889,
+    "rain": 536.8876324477235,
+    "okta": 1475.6325099274784,
+    "n_days": 365
+  },
+  "realized_past_regime": {
+    "rad": 2298005.0,
+    "mint": 854.4000000000001,
+    "maxt": 2580.5,
+    "vpr": 165.60399999999998,
+    "wind": 508.30000000000007,
+    "rain": 344.4,
+    "okta": 781.3052683349999,
+    "n_days": 180
+  },
+  "required_future_regime": {
+    "rad": 1727017.5823136114,
+    "mint": 1036.4794394628407,
+    "maxt": 2029.8778186861384,
+    "vpr": 242.35609714871907,
+    "wind": 559.9540279204889,
+    "rain": 192.4876324477235,
+    "okta": 694.3272415924783,
+    "n_days": 185
+  },
+  "delta_to_optimal_full_regime": {
+    "rad": 1727017.5823136112,
+    "mint": 1036.4794394628407,
+    "maxt": 2029.8778186861382,
+    "vpr": 242.35609714871907,
+    "wind": 559.9540279204888,
+    "rain": 192.4876324477235,
+    "okta": 694.3272415924785,
+    "n_days": 185
+  },
+  "recommended_decision": {
+    "rad_scale": 0.8134265266257232,
+    "mint_shift": -1.2574084353359953,
+    "maxt_shift": -4.863363142237089,
+    "vpr_scale": 1.2222305570059966,
+    "wind_scale": 1.1660850227415427,
+    "rain_scale": 0.6106841130955695,
+    "okta_shift": -0.2779651861336457,
+    "feed1_scale": 0.7742110327542858,
+    "feed2_scale": 0.5981468570020639,
+    "slweight_scale": 0.9766814719088797
+  },
+  "notes": [
+    "required_future_regime represents the cumulative regime still needed from now until season end.",
+    "delta_to_optimal_full_regime equals optimal full-season target minus realized past regime.",
+    "The selected target is the best feasible archive point under a lexicographic ranking on meat production then feed efficiency.",
+    "random_future_generation=enabled"
+  ]
+}

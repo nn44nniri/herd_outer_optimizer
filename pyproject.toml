@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "herd-outer-optimizer"
+version = "0.1.0"
+description = "Outer-loop constrained MOBO optimizer around LiGAPS-Beef"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+]
+
+[project.optional-dependencies]
+train = [
+  "torch",
+  "botorch",
+  "gpytorch",
+  "matplotlib",
+]
+
+[project.scripts]
+herd-optimizer = "herd_optimizer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["herd_optimizer*"]
