@@ -221,6 +221,12 @@ which corresponded to about **20.1%** and **25.0%** of mean measured average dai
 ### Optimizer-method results from HV-KG literature
 The HV-KG paper reported substantial performance gains over several state-of-the-art MOBO baselines on synthetic and real-world multi-fidelity and decoupled problems, and positioned HV-KG as particularly useful when optimization must proceed with incomplete information. :contentReference[oaicite:39]{index=39} :contentReference[oaicite:40]{index=40}
 
+Optimization archive contains no records:
+![optimization archive contains no records](runs/france_case1/training_report.png)
+
+Optimal_full_cumulative_regime:
+![optimal_full_cumulative_regime](runs/france_case1/operation_day_180_report.png)
+
 ---
 
 ## Conclusions
