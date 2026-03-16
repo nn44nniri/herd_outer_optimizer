@@ -224,7 +224,7 @@ The HV-KG paper reported substantial performance gains over several state-of-the
 Optimization archive contains no records:
 ![optimization archive contains no records](runs/france_case1/training_report.png)
 
-Optimal_full_cumulative_regime:
+Optimal full cumulative regime:
 ![optimal_full_cumulative_regime](runs/france_case1/operation_day_180_report.png)
 
 ---
