@@ -145,7 +145,7 @@ $$
 \right]
 $$
 
-where \(\psi^*\) is the current best hypervolume under the current data \(\mathcal{D}\), and \(\mathcal{D}_x\) denotes the data after a new observation at candidate \(x\). :contentReference[oaicite:30]{index=30}
+where $(\psi^*)$ is the current best hypervolume under the current data \(\mathcal{D}\), and \(\mathcal{D}_x\) denotes the data after a new observation at candidate \(x\). :contentReference[oaicite:30]{index=30}
 
 ### 4. Partial-information / operation-phase formalism
 In this repository, the operation phase compares:
